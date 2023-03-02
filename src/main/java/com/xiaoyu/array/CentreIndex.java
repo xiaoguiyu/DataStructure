@@ -23,11 +23,11 @@ public class CentreIndex {
 
 
         int[] nums = {  2, 1, -1  };
-        System.out.println(new Solution().findMiddleIndex(nums));
+        System.out.println(new Solution_1991().findMiddleIndex(nums));
     }
 }
 
-class Solution {
+class Solution_1991 {
     public int findMiddleIndex(int[] nums) {
 
         // 求出总和
