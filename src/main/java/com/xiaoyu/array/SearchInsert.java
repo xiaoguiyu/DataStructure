@@ -22,7 +22,4 @@ public class SearchInsert {
         // 若数组的中的数都小于target, 说明插如的位置为数组的末尾, 也就是length
         return nums.length;
     }
-
-
-
 }
