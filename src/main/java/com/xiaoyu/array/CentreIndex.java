@@ -23,12 +23,10 @@ public class CentreIndex {
 
 
         int[] nums = {  2, 1, -1  };
-        System.out.println(new Solution_1991().findMiddleIndex(nums));
+        System.out.println(findMiddleIndex(nums));
     }
-}
 
-class Solution_1991 {
-    public int findMiddleIndex(int[] nums) {
+    public static int findMiddleIndex(int[] nums) {
 
         // 求出总和
         int sum = 0;
@@ -47,6 +45,7 @@ class Solution_1991 {
         }
         return -1;
     }
+
 }
 
 
